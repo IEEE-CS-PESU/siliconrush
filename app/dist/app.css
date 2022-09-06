@@ -388,6 +388,10 @@
   margin-bottom: 8px;
   letter-spacing: 0.6px;
 }
+.page-title .sub-title{
+  margin-bottom:-1em;
+}
+
 .tf-title .title {
   text-transform: uppercase;
 }
@@ -868,7 +872,7 @@
 .main .page-title {
   position: relative;
   padding: 0;
-  height: 940px;
+  /* height: 940px; */
   overflow: hidden;
 }
 .main .page-title .container {
@@ -936,8 +940,9 @@
 .main .page-title .box-slider .content-box p {
   letter-spacing: 0;
   padding-right: 140px;
-  margin-bottom: 48px;
+  margin-bottom: 12px;
 }
+
 .main .page-title .box-slider .image {
   text-align: right;
   width: 50%;
@@ -6625,8 +6630,11 @@ img.mfp-img {
   .main .page-title .slider-st2 .box-slider .content-box .wrap-btn,
 .main .page-title .slider-st3 .box-slider .content-box .wrap-btn,
 .main .page-title .slider-st1 .box-slider .content-box .wrap-btn {
-    display: block;
+    /* display: block; */
+    display: flex;
+    align-items:  baseline;
   }
+
   .main .page-title .slider-st2 .box-slider .content-box .wrap-btn .tf-button-st2,
 .main .page-title .slider-st3 .box-slider .content-box .wrap-btn .tf-button-st2,
 .main .page-title .slider-st1 .box-slider .content-box .wrap-btn .tf-button-st2 {
