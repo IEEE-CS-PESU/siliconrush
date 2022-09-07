@@ -99,10 +99,10 @@ Util.setAttributes = function (el, attrs) {
         if (bool && days == 0 && hours == 0 && this.visibleLabels.indexOf('h') < 0) this.hours.parentElement.style.display = "none";
         if (bool && days == 0 && hours == 0 && mins == 0 && this.visibleLabels.indexOf('m') < 0) this.mins.parentElement.style.display = "none";
 
-        this.days.textContent = days;
-        this.hours.textContent = this.getTimeFormat(hours);
-        this.mins.textContent = this.getTimeFormat(mins);
-        this.secs.textContent = this.getTimeFormat(seconds);
+        // this.days.textContent = days;
+        // this.hours.textContent = this.getTimeFormat(hours);
+        // this.mins.textContent = this.getTimeFormat(mins);
+        // this.secs.textContent = this.getTimeFormat(seconds);
     };
 
     CountDown.prototype.getTimeFormat = function (time) {
