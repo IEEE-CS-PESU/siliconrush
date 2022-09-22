@@ -4801,7 +4801,7 @@
 }
 
 .faq .flat-accordion {
-  max-width: 740px;
+  max-width: 950px;
   margin: 0 auto;
 }
 
@@ -6713,6 +6713,11 @@ body {
   font-weight: 400;
   color: #B9B9BF;
   background-color: #000000;
+}
+@media only screen and (max-width: 767px){
+  body{
+    font-size: 14px;
+  }
 }
 
 img {
