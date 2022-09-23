@@ -27,6 +27,22 @@
 
   gtag('config', 'G-Z4ZEGCCMDB');
 </script>
+<script src="app/js/count-down.js"></script>
+    <script>
+    var countDownDate = new Date("Oct 1, 2022 09:00:00").getTime();
+    var x = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementsByClassName('js-countdown__value--0')[0].textContent = days
+    document.getElementsByClassName('js-countdown__value--1')[0].textContent = hours
+    document.getElementsByClassName('js-countdown__value--2')[0].textContent = minutes
+    document.getElementsByClassName('js-countdown__value--3')[0].textContent = seconds
+}, 1000);
+    </script>
 <body class="header-fixed main">
         <!-- preloade -->
         <div class="preload preload-container">
@@ -833,22 +849,7 @@
     </footer>
     </div>
     <a id="scroll-top"></a>
-    <script src="app/js/count-down.js"></script>
-    <script>
-    var countDownDate = new Date("Oct 1, 2022 09:00:00").getTime();
-    var x = setInterval(function() {
-    var now = new Date().getTime();
-    var distance = countDownDate - now;
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    document.getElementsByClassName('js-countdown__value--0')[0].textContent = days
-    document.getElementsByClassName('js-countdown__value--1')[0].textContent = hours
-    document.getElementsByClassName('js-countdown__value--2')[0].textContent = minutes
-    document.getElementsByClassName('js-countdown__value--3')[0].textContent = seconds
-}, 1000);
-    </script>
+    
     
     <script src="app/js/jquery.min.js"></script>
     <script src="app/js/bootstrap.min.js"></script>
