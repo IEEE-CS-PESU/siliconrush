@@ -18,6 +18,31 @@
     <link rel="shortcut icon" href="assets/images/favicon.png">
     <link rel="apple-touch-icon-precomposed" href="assets/images/favicon.png">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z4ZEGCCMDB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z4ZEGCCMDB');
+</script>
+<script src="app/js/count-down.js"></script>
+    <script>
+    var countDownDate = new Date("Oct 29, 2022 09:00:00").getTime();
+    var x = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementsByClassName('js-countdown__value--0')[0].textContent = days
+    document.getElementsByClassName('js-countdown__value--1')[0].textContent = hours
+    document.getElementsByClassName('js-countdown__value--2')[0].textContent = minutes
+    document.getElementsByClassName('js-countdown__value--3')[0].textContent = seconds
+}, 1000);
+    </script>
 <body class="header-fixed main">
         <!-- preloade -->
         <div class="preload preload-container">
@@ -40,21 +65,21 @@
                         <li class="menu-item">
                             <a href="#about">About</a>
                         </li>
-                        <!-- <li class="menu-item">
-                            <a href="#sponsors">Sponsors</a>
-                        </li> -->
                         <li class="menu-item">
-                            <a href="#roadmap">Roadmap</a>
+                            <a href="#sponsors">Sponsors</a>
                         </li>
                         <li class="menu-item">
                             <a href="#tracks">Tracks</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#roadmap">Roadmap</a>
                         </li>
                         <li class="menu-item">
                             <a href="#faqs">FAQs</a>
                         </li>
                     </ul>
                 </nav><!-- /#main-nav -->
-                        <a target="_blank" class="tf-button btn-effect" href="https://6z5c8ip51zm.typeform.com/to/Trg6JofB">   
+                        <a target="_blank" class="tf-button btn-effect" href="https://form.typeform.com/to/JjVyju0F">   
                             <span class="boder-fade"></span>                                     
                             <span class="effect">Register</span>
                         </a>
@@ -80,7 +105,8 @@
                                             
                                             <h2 class="sub-title bold"> IEEE CS PESU presents,</h2>
                                             <h1 style="font-size: 90px;" class="title">SILICON RUSH</h1>
-                                            <p class="sub-title bold">October 8th - 9th 2022</p>
+                                            <h2 class="sub-title bold">Bangalore Level Hackathon</h2>
+                                            <p class="sub-title bold">October 29th - 30th 2022</p>
                                                 <!-- <section class="page-title comimg-soon"> -->
                                                     <div class="comimg-soon">
                                                         <div class="row">
@@ -100,7 +126,7 @@
                                                     </div>
                                                 <!-- </section> -->
                                                 <div class="wrap-btn style2 style2-container">
-                                                    <a target="_blank" href="https://6z5c8ip51zm.typeform.com/to/Trg6JofB" class="tf-button-st2 btn-effect" ><span class="effect">Register</span></a>
+                                                    <a target="_blank" href="https://form.typeform.com/to/JjVyju0F" class="tf-button-st2 btn-effect" ><span class="effect">Register</span></a>
                                                     <a href="https://ieeecspesu.tech" target='blank'
                                                     rel="noopener noreferrer" class="tf-button btn-effect">
                                                         <span class="boder-fade"></span>                                     
@@ -142,8 +168,8 @@
                             <div class="h7">When and Where?</div>
                             <p>
                                 <ul>
-                                    <li>Dates - 8th and 9th October 2022</li>
-                                    <li>Venue - MRD Auditorium, PES University</li>
+                                    <li>Dates - 1st and 2nd October 2022</li>
+                                    <li>Venue - Hack52 Room, Golden Jubilee Block, PES University RR Campus</li>
                                     <li>Time - 9:00 AM - 9:00 AM (24Hrs)</li>
                                 </ul>
                             </p>
@@ -154,8 +180,33 @@
                         </div>
                         <div class="box-text corner-box active">
                             <div class="h7">Prize Pool</div>
-                            <p>To Be Declared</p>
+                            <p>60,000 Rupees</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="sponsors" class="tf-section partner bg-st1 pb-mobie-40">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tf-title m-b40" data-aos="fade-up" data-aos-duration="800">
+                        <p class="h8 sub-title">Sponsors</p>
+                        <h4 class="title">Supported By</h4>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="item-parner" data-aos="fade-up" data-aos-duration="800">
+                    <div style="display: flex; flex-direction: column; justify-content:center; align-items:center; padding-bottom:90px;">
+                        <a href="https://www.citrix.com/en-in/" target='blank'
+                        rel="noopener noreferrer">
+                        <img style="border-radius:10px; padding-bottom:90px; width:50em;" src="assets/images/logo/citrix.png" alt="Citrix"></a>
+                        <a href="https://g-knowme.com/" target='blank'
+                        rel="noopener noreferrer">
+                        <img style="border-radius:10px;  width:20em;" src="assets/images/logo/gknowme.png" alt="G-KnowMe"></a>
                     </div>
                 </div>
             </div>
@@ -173,7 +224,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/cloud.png" alt="">
                                         <div class="content">
-                                         <a href="item.html">Cloud Computing</a>
+                                         <p>Cloud Computing</p>
                                         </div>
                                     </div>
                                 </div>
@@ -181,7 +232,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/ai.png" alt="">
                                         <div class="content">
-                                         <a href="item.html">Artificial Intelligence</a>
+                                         <a >Artificial Intelligence</a>
                                         </div>
                                     </div>
                                 </div>
@@ -189,7 +240,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/sc.png" alt="">
                                         <div class="content">
-                                         <a href="item.html">System Core</a>
+                                         <a >System Core</a>
                                         </div>
                                     </div>
                                 </div>
@@ -197,7 +248,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/bc.png" alt="">
                                         <div class="content">
-                                         <a href="item.html">Blockchain</a>
+                                         <a >Blockchain</a>
                                         </div>
                                     </div>
                                 </div>
@@ -205,7 +256,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/ml.png" alt="">
                                         <div class="content">
-                                         <a href="item.html">Machine Learning</a>
+                                         <a >Machine Learning</a>
                                         </div>
                                     </div>
                                 </div>
@@ -213,7 +264,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/ds.png" alt="">
                                         <div class="content">
-                                         <a href="item.html">Data Science</a>
+                                         <a >Data Science</a>
                                         </div>
                                     </div>
                                 </div>
@@ -221,7 +272,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/iot.png" alt="">
                                         <div class="content">
-                                           <a href="item.html">IOT</a>
+                                           <a >IOT</a>
                                         </div>
                                     </div>
                                 </div>
@@ -229,7 +280,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/sd.png" alt="">
                                         <div class="content">
-                                         <a href="item.html">Software Dev</a>
+                                         <a >Software Dev</a>
                                         </div>
                                     </div>
                                 </div>
@@ -247,7 +298,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/sd.png" alt="">
                                         <div class="content">
-                                         <a href="item.html">Software Dev</a>
+                                         <a >Software Dev</a>
                                         </div>
                                     </div>
                                 </div>
@@ -255,7 +306,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/iot.png" alt="">
                                         <div class="content">
-                                         <a href="item.html">IOT</a>
+                                         <a >IOT</a>
                                         </div>
                                     </div>
                                 </div>
@@ -263,7 +314,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/ds.png" alt="">
                                         <div class="content">
-                                         <a href="item.html">Data Science</a>
+                                         <a >Data Science</a>
                                         </div>
                                     </div>
                                 </div>
@@ -271,7 +322,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/bc.png" alt="">
                                         <div class="content">
-                                         <a href="item.html">Blockchain</a>
+                                         <a >Blockchain</a>
                                         </div>
                                     </div>
                                 </div>
@@ -279,7 +330,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/ml.png" alt="">
                                         <div class="content">
-                                         <a href="item.html">Machine Learning</a>
+                                         <a >Machine Learning</a>
                                         </div>
                                     </div>
                                 </div>
@@ -287,7 +338,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/sc.png" alt="">
                                         <div class="content">
-                                         <a href="item.html">System Core</a>
+                                         <a >System Core</a>
                                         </div>
                                     </div>
                                 </div>
@@ -295,7 +346,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/ai.png" alt="">
                                         <div class="content">
-                                           <a href="item.html">Artificial Intelligence</a>
+                                           <a >Artificial Intelligence</a>
                                         </div>
                                     </div>
                                 </div>
@@ -303,7 +354,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/cloud.png" alt="">
                                         <div class="content">
-                                         <a href="item.html">Cloud Computing</a>
+                                         <a >Cloud Computing</a>
                                         </div>
                                     </div>
                                 </div>
@@ -314,37 +365,143 @@
             </div>
         </div>
     </section>
-<!-- 
-    <section id="sponsors" class="tf-section partner bg-st1 pb-mobie-40">
+
+
+    <section id="tracks" class="tf-section faq">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="tf-title m-b40" data-aos="fade-up" data-aos-duration="800">
-                        <p class="h8 sub-title">Sponsors wall</p>
-                        <h4 class="title">Our Sponsors</h4>
+                    <div class="tf-title m-b60" data-aos="fade-up" data-aos-duration="800">
+                        <p class="h8 sub-title">Solve Real-World Problems</p>
+                        <h4 class="title">Problem Statements</h4>
+                        <a href="https://docs.google.com/presentation/d/1apCu8bRJIieqcIRwLrp85AYLQYKC4L9xkqBLurimX9g/edit#slide=id.g9a0f900027_1_812" target='blank'
+                        rel="noopener noreferrer" class="tf-button btn-effect">
+                            <span class="boder-fade"></span>                                    
+                            <span class="effect">PPT Template</span>
+                        </a>
+                        <a href="https://ieeecspesu.notion.site/ieeecspesu/Silicon-Rush-2022-Tracks-6209ea468371401b800eb75874470300" target='blank'
+                        rel="noopener noreferrer" class="tf-button btn-effect">
+                            <span class="boder-fade"></span>                                    
+                            <span class="effect">View on Notion</span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <div class="item-parner" data-aos="fade-up" data-aos-duration="800">
-                        <div class="swiper-container sl-parner">
-                            <div class="swiper-wrapper" style="display: flex ; justify-content:center; align-items:center">
-                                <div class="swiper-slide" style="margin-right:100px;">
-                                    <div class="image">
-                                        <img style="border-radius:10px; height: 7.6em ; width:20em;" src="assets/images/logo/Cit.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="image">
-                                        <img style="background-color: white;border-radius : 10px;" src="assets/images/logo/gitHub.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="flat-accordion" data-aos="fade-up" data-aos-duration="800">
+                        <div class="flat-toggle box-text corner-box active">
+                            <div class="h7 toggle-title">&nbsp; 1. &nbsp; G-KnowMe</div>
+                            <p class="toggle-content">The digital era has become more of a norm than ever before, pushed further by the pandemic. Digital records of health reports enable the maintenance of medical history with ease allowing access anytime and anywhere, both for the individuals and medical professionals. On the other hand, analysis of test results, data collection, and tracking of medical reports over a period of time accelerates research. To this end, digitisation of medical records proves to be a great utility.
+                                <br>
+                                <br>
+                            Teams must compete to build a complete web application that delivers the utility to detect an appropriate table structure and presents all the displayed results from camera images of medical reports. The application should support cropping and alignment as well. Extracting the PHI corresponding to Patient Name, Age, Gender and Date of collection fetches additional scores! DATASET WILL BE PROVIDED.
+                            </p>
                         </div>
+                        <div class="flat-toggle box-text corner-box active">
+                            <div class="h7 toggle-title">&nbsp;2. &nbsp; World is a Computer</div>
+                            <p class="toggle-content">When the COVID vaccine was being searched for, Folding@home started a program where you could "lend" your GPU for computations (to simulate protein dynamics). This would work like a GRID system, where user devices join in and are assigned a job to do. And all the results are sent back to a central location. 
+                                <br>
+                                <br>
+                                You will need to create a framework which runs the same user-defined function on multiple subsets of data parallelly, by sending the "function" to many “nodes”, each of which execute on a different subset of the data and return the result to the “central computer”. All data is important, so IF you can, make this “distributed framework” fault tolerant.
+                                <br>
+                                <br>
+                                The end product should be a framework that a research lab may use to create an app that runs its “Covid protein analysis” on devices worldwide.
+                                <br>
+                                <br>
+                                Reference link: <a target='blank'
+                                rel="noopener noreferrer" href="https://developer.nvidia.com/blog/foldinghome-gpu-accelerated-exaflop/">developer.nvidia.com/foldinghome</a>
+                            </p>
+                        </div>
+                        <div class="flat-toggle box-text corner-box active">
+                            <div class="h7 toggle-title">&nbsp;3. &nbsp; Smart Traffic Management</div>
+                            <p class="toggle-content">Don't we all detest the congested streets in some parts of Bangalore? Our patience is put to the test, and it also makes us late for work. In addition to this, traffic also slightly raises fuel consumption, which directly affects vehicle emission rates and raises pollution levels. The best time to respond to and resolve this issue is now.
+                                <br>
+                                <br>
+                            You are required to develop an intelligent traffic control system utilizing Deep Learning, IoT and Computer Vision technologies. The solution must be able to handle changing traffic conditions and respond appropriately.
+                            </p>
+                        </div>
+                        <div class="flat-toggle box-text corner-box active">
+                            <div class="h7 toggle-title">&nbsp; 4. &nbsp;Data Security 1</div>
+                            <p class="toggle-content">Ever growing internet requires Ever growing efforts on improving How we detect threats and how we protect data from spying. As it's said Data is the pollution problem of the information age, and protecting privacy is the environmental challenge.
+                                <br>
+                                <br>
+                                Innovation in steganographic techniques, by making a steganographic technique of their own choosing, with the highest possible information density and undetectability. Product should contain a basic GUI accepting both message and carrier. You are free to choose encryption algorithms, and no of techniques is left to the choice (Note that Judges will judge according to the quality and not the quantity). You can choose their own ways to manipulate carriers.
+                            </p>
+                        </div>
+                        <div class="flat-toggle box-text corner-box active">
+                            <div class="h7 toggle-title">&nbsp; 5. &nbsp; Data Security 2</div>
+                            <p class="toggle-content">Ever growing internet requires Ever growing efforts on improving How we detect threats and how we protect data from spying. As it's said Data is the pollution problem of the information age, and protecting privacy is the environmental challenge.
+                                <br>
+                                <br>
+                            Innovation in malware and spyware detection programs that detects malware and spyware on the application-level software (datalogger, keylogger, stealers etc). Expected outcome is to have basic GUI which can be used by any consumer who isn’t very technologically inclined, threshold constraints, how it should be used and how it should respond to certain malware found. Can be implemented using AI, Yara rules, Anomaly based, and Signature based detection.
+                            </p>
+                        </div>
+                        <div class="flat-toggle box-text corner-box active">
+                            <div class="h7 toggle-title">&nbsp; 6. &nbsp; Healthcare</div>
+                            <p class="toggle-content">Have we not all seen households where the children departed for work overseas while their aged parents were left alone in their homes? The issue becomes more delicate when we take into consideration the fact that a lot of them suffer from chronic health conditions.
+                                <br>
+                                <br>
+                            You are expected to simulate a robot stationed in such a home to perform logistical tasks for partly mobile and immobile patients in a manner that follows the HL7 healthcare standard. Additional features for this domestic robot and will be judged based on its practicality.
+                            </p>
+                        </div>
+                        
+                    <div class="flat-toggle box-text corner-box active">
+                        <div class="h7 toggle-title">&nbsp; 7. &nbsp; The Big Bull</div>
+                        <p class="toggle-content">Blockchain is one of the growing technologies used for financial management systems. Financial data must be kept secure otherwise it can create a huge loss. So, whenever security features or technologies are developed, we must keep financial security as a priority. Stock market management is another area of the finance sector that works on two concepts, that is, minimize the risk and maximize the profit.
+                            <br>
+                            <br>
+                        Imagine companies can register, issue and trade shares on a blockchain-based platform. What does it mean to you? In brief, you can buy company shares using digital currency. 
+                        <br>
+                        <br>
+                        Build an application  with blockchain technology that can be used to buy and sell stocks. Real world stocks can be tokenized into digital stocks which can be easily transferred using peer-to-peer. These digital stocks act similar to digital currency whose price is real time and fluctuates. Stocks exchanged completely peer-to-peer could resolve many of the issues facing the stock market today, including high frequency trading and short sales.
+                        </p>
                     </div>
+                    <div class="flat-toggle box-text corner-box active">
+                        <div class="h7 toggle-title">&nbsp; 8. &nbsp; Immersive Learning Experience</div>
+                        <p class="toggle-content">As the world becomes increasingly technologically driven, traditional classroom based learning where a teacher, lecturer or trainer stands at the front of a class is increasingly becoming a thing of the past. Creating a participatory environment where educators are facilitating active, immersive learning can be hugely beneficial to a learner’s development; enriching their knowledge base and practical skills.
+                        <br>
+                        <br>
+                        Could immersive learning not only hold the key to addressing the challenges of the digital age, but significantly improve education and skills development by harnessing the power of technologies such as virtual, augmented and mixed reality?
+                        <br>
+                        <br>
+                        Develop an AR/VR or Metaverse solution to assist in resolving this issue.
+                        </p>
+                    </div>
+                    <div class="flat-toggle box-text corner-box active">
+                        <div class="h7 toggle-title">&nbsp; 9. &nbsp; Know Your Customer</div>
+                        <p class="toggle-content">KYC processes are the backbones of a financial institution’s anti-money laundering efforts. With a whopping amount as this being spent on making KYC processes better, it is easy to assume that the process would be unhackable and issues-free. But in spite of the importance of the process, KYC continues to operate inefficiently. 
+                        <br>
+                        <br>
+                        Clenched by labor-intensive and time-consuming tasks, the high scope of effort duplication, and the risk of error, it is estimated that 80% of KYC efforts go on gathering information and processing while only 20% of efforts are assessing and monitoring focused. While the current KYC process is failing to serve its purpose on the financial institution front, the tiresome, long, and repetitive process is creating an annoying experience for customers. 
+                        <br>
+                        <br>
+                        How might BLOCKCHAIN assist in resolving these issues? Create a blockchain based solution to address these problems in a practical way.    
+                        </p>
+                    </div>
+                    <div class="flat-toggle box-text corner-box active">
+                        <div class="h7 toggle-title">&nbsp; 10. &nbsp; Disaster Management</div>
+                        <p class="toggle-content">Disasters, including man-made ones, are an ever-present threat and are occurring at an increasing rate worldwide. Disaster response is one of the critical phases in the Disaster Management System life cycle. Disaster response is defined as actions taken in anticipation of, during, and immediately after an emergency to ensure that its effects are minimized, and that people  affected are  given  immediate relief  and support. Planning, organizing, directing and controlling  are  the  key  management  functions that help to manage the disaster response phase effectively to minimize any potential  impacts.
+                            <br>
+                            <br>
+                        UAVs for Disaster management when disasters happen, are useful, and are helping in the recovery after the disaster, but most require individual pilots, who fly the unmanned aircraft by remote control. That limits how quickly rescuers can view an entire affected area, and can delay actual aid from reaching victims. Autonomous smart drones with integrated image processing APIs and can relay real time analysis of images to remote locations will help in early detection and adequate mobilization of resources.
+                        </p>
+                    </div>
+
+                    <div class="flat-toggle box-text corner-box active">
+                        <div class="h7 toggle-title">&nbsp; 11. &nbsp; Smart home infrastructure</div>
+                        <p class="toggle-content">Smart homes can be defined as a home setup where appliances and devices are connected over the internet and can be remotely controlled using a mobile or any internet-enabled device. Enabling people to control their home appliances (temperature, lighting, television, AC etc.) has been one of the most convenient technological advancements of the recent past.
+                            <br>
+                            <br>
+                            This cutting-edge technology is not very user-friendly for elderly people. For example, not everyone knows how to control their home appliances from a mobile application. Not everyone can understand why the desired output is not seen even after following every procedure properly. 
+                            <br>
+                            <br>
+                            Come up with a solution that eases the end user’s part in a smart home infrastructure.  Consider working with actual hardware (Microcontroller, sensors and actuators) and open source cloud services like Firebase, Thingspeak, AWS, etc. An application from which the appliances can be controlled. Try to build a prototype that can be scaled enough to be implemented in an actual household scenario.
+                        </p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <section id="roadmap" class="tf-section tf-roadmap style2">
         <div class="overlay">
@@ -368,7 +525,7 @@
                                             <div class="corner-box active">
                                                 <h5>Registration</h5>
                                                 <ul>
-                                                    <p class="bold">8th October 2022
+                                                    <p class="bold">29 October 2022
                                                         <br/>
                                                         9:00 am</p>
                                                     <li>The Hackathon begins at 10:00 am!</li>
@@ -385,7 +542,7 @@
                                             <div class="corner-box">
                                                 <h5>Hackathon Phase 1</h5>
                                                 <ul>
-                                                    <p class="bold">8th October 2022
+                                                    <p class="bold">29 October 2022
                                                         <br/>
                                                         10:00 am</p>
                                                     <li>Phase 1 Review at 12:30 pm</li>
@@ -403,7 +560,7 @@
                                             <div class="corner-box">
                                                 <h5>Hackathon Phase 2</h5>
                                                 <ul>
-                                                    <p class="bold">8th October 2022
+                                                    <p class="bold">29 October 2022
                                                         <br/>
                                                         </p>
                                                     <li>Phase 2 Review at 6:00 pm!</li>
@@ -422,7 +579,7 @@
                                             <div class="corner-box">
                                                 <h5>Hackathon Phase 3</h5>
                                                 <ul>
-                                                    <p class="bold">9th October 2022
+                                                    <p class="bold">30 October 2022
                                                         <br/>
                                                        </p>
                                                         <li>Interactive Games</li>
@@ -442,7 +599,7 @@
                                             <div class="corner-box">
                                                 <h5>Finals!</h5>
                                                 <ul>
-                                                    <p class="bold">9th October 2022
+                                                    <p class="bold">30 October 2022
                                                         <br/>
                                                        </p>
                                                     <li>Top 10 teams announced at 10:00 am</li>
@@ -468,23 +625,22 @@
         </div>
     </section>
 
-    <section id="tracks" class="tf-section how-we-work">
+    <!-- <section id="tracks" class="tf-section how-we-work">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="tf-title st2 m-b60" data-aos="fade-up" data-aos-duration="800">
                         <p class="h8 sub-title">Solve Real-World Problems</p>
                         <h4 class="title m-b17">Problem Statements</h4>
-                        <!-- <p class="p-r60">Maecenas sit pretium, cras in. In quisque sem id eget. In vel gravida ut adipiscing integer felis. </p> -->
+                        <p class="p-r60">Maecenas sit pretium, cras in. In quisque sem id eget. In vel gravida ut adipiscing integer felis. </p> -->
                     </div>
-                   
                 </div>
                 <!-- <div class="col-xl-3 col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
                     <div class="box-text st2 corner-box active">
                         <div class="number">01</div>
-                        <div class="h7">Set up your wallet</div>
-                        <p>Arcu morbi sit laoreet semper ultrices maecenas auctor amet. 
-                            Donec tortor facilisis risus, neque sit aliquet orci, malesuada.</p>
+                        <div class="h7">World is a Computer</div>
+                        <p>When the COVID vaccine was being searched for, Folding@home started a program where you could "lend" your GPU for computations (to simulate protein dynamics). This would work like a GRID system, where user devices join in and are assigned a job to do. And all the results are sent back to a central location.
+                        </p>
                     </div>
                 </div> -->
                 <!-- <div class="col-xl-3 col-lg-6 col-md-6 col-12" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
@@ -511,7 +667,7 @@
                             Donec tortor facilisis risus, neque sit aliquet orci, malesuada.</p>
                     </div>
                 </div> -->
-                <section class="page-title comimg-soon">
+                <!-- <section class="page-title comimg-soon">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
@@ -524,18 +680,44 @@
                 </section>
             </div>
         </div>
-    </section>
-    <!-- <section class="page-title comimg-soon">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 data-aos="zoom-in" data-aos-duration="800">
-                        <span>Coming</span><span>Soon</span>
-                    </h3>
+        <div class="row">
+        <div class="col-md-12">
+            <div class="flat-accordion" data-aos="fade-up" data-aos-duration="800">
+                <div class="flat-toggle box-text corner-box active">
+                    <div class="h7 toggle-title">Why should I participate in this hackathon?</div>
+                    <p class="toggle-content">This hackathon will give you exposure, teach you about new tech stack and will help you network and connect with peers. You will be given the chance to build résumé-worthy projects and interact with industry experts. Not to mention the eye-catching cash prize. </p>
                 </div>
+                <div class="flat-toggle box-text corner-box active">
+                    <div class="h7 toggle-title">Is the event open to everyone?</div>
+                    <p class="toggle-content">Absolutely! Students of all branches (BTech Engineering) and years are welcome to participate. </p>
+                </div>
+                <div class="flat-toggle box-text corner-box active">
+                    <div class="h7 toggle-title">How many rounds do I have to go through?</div>
+                    <p class="toggle-content">There will be a preliminary round before the hackathon where participants will be asked to submit their ideas. We will pick 30 teams and they will be expected to make a working model of their idea on the day of the Hackthon. </p>
+            </div>
+            <div class="flat-toggle box-text corner-box active">
+                <div class="h7 toggle-title">Have any questions? </div>
+                <p class="toggle-content">Don’t hesitate  to email us at ieee.cs.rr@pes.edu. Do DM us on instagram @ieee.cs.pesu and we will try to reply to your questions as soon as possible!  </p>
             </div>
         </div>
+    </div>
+</div>
+
+<section class="page-title comimg-soon">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 data-aos="zoom-in" data-aos-duration="800">
+                            <span>Coming</span><span>Soon</span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section> -->
+
+    
+    
     <section id="faqs" class="tf-section faq">
         <div class="container">
             <div class="row">
@@ -549,7 +731,7 @@
                     <div class="flat-accordion" data-aos="fade-up" data-aos-duration="800">
                         <div class="flat-toggle box-text corner-box active">
                             <div class="h7 toggle-title active">When and where is the Hackathon going to be held?</div>
-                            <p class="toggle-content">Oct 1st and 2nd 2022, MRD Audi, PES University</p>
+                            <p class="toggle-content">Oct 1st and 2nd 2022, Hack52 Room, Golden Jubilee Block, PES University RR Campus</p>
                         </div>
                         <div class="flat-toggle box-text corner-box active">
                             <div class="h7 toggle-title">Is there a registration fee for the Hackathon?
@@ -558,7 +740,7 @@
                         </div>
                         <div class="flat-toggle box-text corner-box active">
                             <div class="h7 toggle-title">Do I need a team? What is the team size for the hackathon?</div>
-                            <p class="toggle-content">While you do have the option to work alone, participating as a team is encouraged. A team may consist of 3-4 members.</p>
+                            <p class="toggle-content">A team may consist of 3-4 members.</p>
                         </div>
                         <div class="flat-toggle box-text corner-box active">
                             <div class="h7 toggle-title">Do I need to have any prerequisites? Do I require any skills?</div>
@@ -627,11 +809,11 @@
                         </a>
                     </li>
                 </ul>
-                <h5 class="heading">don’t miss out, Register now</h5>
+                <h5 class="heading">Don’t miss out, Join the Rush</h5>
                 <!-- <p>Maecenas sit pretium, cras in. In quisque sem id eget. In vel gravida ut </p> -->
 
                 <div class="wrap-btn style2 style2-container">
-                    <a href="https://6z5c8ip51zm.typeform.com/to/Trg6JofB" class="tf-button btn-effect"><span class="effect">Register</span></a>
+                    <a target="_blank" href="https://form.typeform.com/to/JjVyju0F" class="tf-button btn-effect"><span class="effect">Register</span></a>
                     <a href="https://ieeecspesu.tech" target='blank'
                     rel="noopener noreferrer" class="tf-button btn-effect">
                         <span class="boder-fade"></span>                                     
@@ -667,22 +849,7 @@
     </footer>
     </div>
     <a id="scroll-top"></a>
-    <script src="app/js/count-down.js"></script>
-    <script>
-    var countDownDate = new Date("Oct 9, 2022 09:00:00").getTime();
-    var x = setInterval(function() {
-    var now = new Date().getTime();
-    var distance = countDownDate - now;
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    document.getElementsByClassName('js-countdown__value--0')[0].textContent = days
-    document.getElementsByClassName('js-countdown__value--1')[0].textContent = hours
-    document.getElementsByClassName('js-countdown__value--2')[0].textContent = minutes
-    document.getElementsByClassName('js-countdown__value--3')[0].textContent = seconds
-}, 1000);
-    </script>
+    
     
     <script src="app/js/jquery.min.js"></script>
     <script src="app/js/bootstrap.min.js"></script>
