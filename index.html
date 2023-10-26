@@ -29,18 +29,18 @@
 </script>
 <script src="app/js/count-down.js"></script>
     <script>
-    var countDownDate = new Date("Oct 1, 2022 09:00:00").getTime();
+    var countDownDate = new Date("Nov 17, 2023 17:00:00").getTime();
     var x = setInterval(function() {
     var now = new Date().getTime();
     var distance = countDownDate - now;
-    // var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    // var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    // var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    // var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    var days = 0;
-    var hours = 0;
-    var minutes = 0;
-    var seconds = 0;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    // var days = 0;
+    // var hours = 0;
+    // var minutes = 0;
+    // var seconds = 0;
     document.getElementsByClassName('js-countdown__value--0')[0].textContent = days
     document.getElementsByClassName('js-countdown__value--1')[0].textContent = hours
     document.getElementsByClassName('js-countdown__value--2')[0].textContent = minutes
@@ -110,7 +110,7 @@
                                             <h2 class="sub-title bold"> IEEE CS PESU presents,</h2>
                                             <h1 style="font-size: 90px;" class="title">SILICON RUSH</h1>
                                             <h2 class="sub-title bold">Bangalore Level Hackathon</h2>
-                                            <p class="sub-title bold">October 1st-2nd 2022</p>
+                                            <p class="sub-title bold">November 17th-18th 2023</p>
                                                 <!-- <section class="page-title comimg-soon"> -->
                                                     <div class="comimg-soon">
                                                         <div class="row">
@@ -128,8 +128,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <h2 class="sub-title bold"> We Hope to see you next Time !!!</h2>
-                                                    <!-- <h2 class="sub-title bold"> Till then keep RUSHING!!</h2> -->
+                                                    <!-- <h2 class="sub-title bold"> We Hope to see you next Time !!!</h2> -->
+                                                    <h2 class="sub-title bold"> Till then keep RUSHING!!</h2>
                                                 <!-- </section> -->
                                                 <div class="wrap-btn style2 style2-container">
                                                     <!-- <a target="_blank" href="https://form.typeform.com/to/JjVyju0F" class="tf-button-st2 btn-effect" ><span class="effect">Register</span></a> -->
@@ -174,9 +174,9 @@
                             <div class="h7">When and Where?</div>
                             <p>
                                 <ul>
-                                    <li>Dates - 1st and 2nd October 2022</li>
-                                    <li>Venue - MRD Auditorium, PES University RR Campus</li>
-                                    <li>Time - 9:00 AM - 9:00 AM (24Hrs)</li>
+                                    <li>Dates - 17th and 18th November 2023</li>
+                                    <li>Venue - 13th Floor, BE Block, PES University RR Campus</li>
+                                    <li>Time - 5:00 PM - 5:00 PM (24Hrs)</li>
                                 </ul>
                             </p>
                         </div>
@@ -230,7 +230,7 @@
                                     <div class="img-box">
                                         <img src="assets/images/common/cloud.png" alt="">
                                         <div class="content">
-                                         <p>Cloud Computing</p>
+                                            <a >Cloud Computing</a>
                                         </div>
                                     </div>
                                 </div>
